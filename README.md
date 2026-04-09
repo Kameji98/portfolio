@@ -37,3 +37,23 @@ In this portfolio I present:
 ---
 
 ## Project Structure
+
+index.html
+style.css
+index.js
+
+---
+
+## Goal
+
+The goal of this portfolio is not to be perfect, but to reflect my real progress.
+
+I will continue improving it over time and add more projects.
+
+---
+
+## Contact
+
+Email: giovanni.codianni20@gmail.com  
+GitHub: https://github.com/Kameji98  
+LinkedIn: https://www.linkedin.com/in/giovanni-codianni-6549a531a/
