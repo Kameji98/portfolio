@@ -1,5 +1,7 @@
 # Portfolio – Giovanni Paolo Codianni
 
+🔗 Live Portfolio: https://kameji98.github.io/portfolio/
+
 This is my personal portfolio website.
 
 I built it to show my current skills, projects and progress during my training as an application developer.
