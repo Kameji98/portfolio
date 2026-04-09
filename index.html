@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Giovanni Paolo Codianni | Portfolio</title>
+  <meta name="description" content="Portfolio von Giovanni Paolo Codianni – Umschüler zum Anwendungsentwickler." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div id="particles-js"></div>
+  <div class="bg-grid"></div>
+  <div class="bg-glow"></div>
+
+  <header class="site-header">
+    <div class="container nav">
+      <a href="#start" class="brand" aria-label="Startseite">
+        <div class="brand-mark">GC</div>
+        <div class="brand-text">
+          <span class="brand-label" data-i18n="brandLabel">Portfolio</span>
+          <strong>Giovanni Paolo Codianni</strong>
+        </div>
+      </a>
+
+      <nav class="nav-links">
+        <a href="#about" data-i18n="navAbout">Über mich</a>
+        <a href="#skills" data-i18n="navSkills">Kenntnisse</a>
+        <a href="#projects" data-i18n="navProjects">Projekte</a>
+        <a href="#contact" data-i18n="navContact">Kontakt</a>
+      </nav>
+
+      <div class="lang-switch" aria-label="Sprachauswahl">
+        <button class="lang-btn active" type="button" data-lang-btn="de">DE</button>
+        <button class="lang-btn" type="button" data-lang-btn="en">EN</button>
+      </div>
+    </div>
+  </header>
+
+  <main id="start">
+    <section class="hero">
+      <div class="container hero-layout">
+        <div class="panel hero-main reveal">
+          <div class="eyebrow">
+            <span class="eyebrow-dot"></span>
+            <span data-i18n="eyebrow">Umschüler zum Anwendungsentwickler</span>
+          </div>
+
+          <h1>
+            <span data-i18n="heroTitleLine1">Solide Grundlagen.</span><br>
+            <span class="gradient" data-i18n="heroTitleLine2">Klare Motivation. Echte Entwicklung.</span>
+          </h1>
+
+          <p class="hero-text" data-i18n="heroText">
+            Ich befinde mich aktuell in der Umschulung zum Fachinformatiker für Anwendungsentwicklung mit Fokus auf Backend- und Webentwicklung. Ich arbeite strukturiert, lösungsorientiert und entwickle meine Fähigkeiten kontinuierlich durch praktische Projekte weiter.
+          </p>
+
+          <div class="hero-focus-row">
+            <span class="focus-pill" data-i18n="heroPill1">Backend- &amp; Webentwicklung</span>
+            <span class="focus-pill" data-i18n="heroPill2">Sauberer Code</span>
+            <span class="focus-pill" data-i18n="heroPill3">Praktische Projekte</span>
+          </div>
+
+          <div class="cta-row">
+            <a class="btn btn-primary" href="#projects" data-i18n="btnProjects">Projekte ansehen</a>
+            <a class="btn btn-secondary" href="#contact" data-i18n="btnContact">Kontakt</a>
+          </div>
+
+          <div class="hero-stats">
+            <div class="mini-card">
+              <small data-i18n="stat1Label">Status</small>
+              <strong data-i18n="stat1Value">Umschüler</strong>
+            </div>
+            <div class="mini-card">
+              <small data-i18n="stat2Label">Fokus</small>
+              <strong data-i18n="stat2Value">Anwendungsentwicklung</strong>
+            </div>
+            <div class="mini-card">
+              <small data-i18n="stat3Label">Ziel</small>
+              <strong data-i18n="stat3Value">Praxis & Wachstum</strong>
+            </div>
+          </div>
+
+          <div class="tech-card">
+            <div class="tech-top">
+              <span></span><span></span><span></span>
+            </div>
+
+            <div class="tech-grid">
+              <span class="tech-item">Python</span>
+              <span class="tech-item">SQL</span>
+              <span class="tech-item">JavaScript</span>
+              <span class="tech-item">HTML</span>
+              <span class="tech-item">CSS</span>
+              <span class="tech-item">UML</span>
+              <span class="tech-item">Datenbanken</span>
+              <span class="tech-item">Backend</span>
+              <span class="tech-item">IT-Sicherheit</span>
+            </div>
+          </div>
+          
+
+        </div>
+
+        <aside class="panel hero-side reveal">
+          <div class="profile-card">
+            <div class="profile-image-wrap">
+              <img src="PortfolioPicture.png" alt="Giovanni Paolo Codianni" class="profile-image">
+            </div>
+            <div class="profile-caption">
+              <small data-i18n="profileLabel">Profilbild</small>
+              <strong data-i18n="profileText">Professioneller erster Eindruck</strong>
+            </div>
+          </div>
+
+          <div class="code-card">
+            <div class="code-top">
+              <span></span><span></span><span></span>
+            </div>
+            <div class="code-lines">
+              <div class="code-line">const developer = "Giovanni Paolo Codianni";</div>
+              <div class="code-line" data-code-de='const role = "Umschüler zum Anwendungsentwickler";' data-code-en='const role = "Trainee application developer";'>const role = "Umschüler zum Anwendungsentwickler";</div>
+              <div class="code-line">const skills = ["Python", "SQL", "HTML", "CSS", "JavaScript"];</div>
+              <div class="code-line" data-code-de='const mindset = "lernen + verbessern + umsetzen";' data-code-en='const mindset = "learn + improve + build";'>const mindset = "lernen + verbessern + umsetzen";</div>
+              <div class="code-line" data-code-de='function nextStep() { return "Projekt für Projekt"; }' data-code-en='function nextStep() { return "one project at a time"; }'>function nextStep() { return "Projekt für Projekt"; }</div>
+              <div class="code-line">console.log(nextStep());</div>
+            </div>
+          </div>
+
+          <div class="side-grid">
+            <div class="small-panel">
+              <small data-i18n="strengthLabel">Stärke</small>
+              <strong data-i18n="strengthText">Strukturiertes Lernen und sauberes Arbeiten</strong>
+            </div>
+            <div class="small-panel">
+              <small data-i18n="currentLabel">Aktuell</small>
+              <strong data-i18n="currentText">Aufbau eines starken Portfolios</strong>
+            </div>
+          </div>
+
+          <div class="small-panel contact-panel">
+            <small>E-Mail</small>
+            <strong><a href="mailto:giovanni.codianni20@gmail.com">giovanni.codianni20@gmail.com</a></strong>
+          </div>
+        </aside>
+      </div>
+    </section>
+
+    <section class="section" id="about">
+      <div class="container">
+        <div class="section-head reveal">
+          <div>
+            <small data-i18n="aboutLabel">Über mich</small>
+            <h2 data-i18n="aboutTitle">Technisches Interesse, Motivation und ein klarer Lernweg.</h2>
+          </div>
+          <p data-i18n="aboutLead">
+            Ich entwickle mein Profil gezielt in Richtung Anwendungsentwicklung und verbinde Lernbereitschaft mit praktischer Umsetzung.
+          </p>
+        </div>
+
+        <div class="about-grid">
+          <article class="panel content-panel reveal">
+            <p data-i18n="aboutText1">
+              Ich befinde mich aktuell in der Umschulung zum Fachinformatiker für Anwendungsentwicklung und entwickle meine Kenntnisse gezielt in den Bereichen Backend- und Webentwicklung weiter. Mein Fokus liegt auf Python, SQL, modernen Webtechnologien sowie auf strukturiertem und sauberem Arbeiten.
+            </p>
+            <p data-i18n="aboutText2">
+              Ich arbeite gerne logisch und lösungsorientiert und habe Spaß daran, funktionierende Anwendungen Schritt für Schritt aufzubauen. Dabei lege ich großen Wert auf verständlichen Code, klare Strukturen und kontinuierliche Weiterentwicklung durch praktische Projekte und reale Aufgaben.
+            </p>
+          </article>
+
+          <article class="panel content-panel reveal">
+            <h3 data-i18n="journeyTitle">Was mir wichtig ist</h3>
+            <div class="journey-list">
+              <div class="journey-item">
+                <strong data-i18n="journey1Title">Praktisches Lernen</strong>
+                <span data-i18n="journey1Text">Ich lerne am besten, wenn ich Inhalte direkt in Übungen und Projekten umsetze.</span>
+              </div>
+              <div class="journey-item">
+                <strong data-i18n="journey2Title">Struktur</strong>
+                <span data-i18n="journey2Text">Ich arbeite gerne klar, nachvollziehbar und mit Fokus auf saubere Lösungen.</span>
+              </div>
+              <div class="journey-item">
+                <strong data-i18n="journey3Title">Weiterentwicklung</strong>
+                <span data-i18n="journey3Text">Jedes Projekt ist für mich eine Möglichkeit, Erfahrung zu sammeln und besser zu werden.</span>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="skills">
+      <div class="container">
+        <div class="section-head reveal">
+          <div>
+            <small data-i18n="skillsLabel">Kenntnisse</small>
+            <h2 data-i18n="skillsTitle">Technische Inhalte und persönliche Stärken.</h2>
+          </div>
+          <p data-i18n="skillsLead">
+            Eine Kombination aus aktuellen Lerninhalten und Fähigkeiten, die ich Schritt für Schritt ausbaue.
+          </p>
+        </div>
+
+          <div class="skills-grid">
+            <article class="panel content-panel reveal">
+              <h3 data-i18n="codingTitle">Technische Kenntnisse</h3>
+              <div class="tag-wrap">
+                <span class="tag">Python</span>
+                <span class="tag">SQL</span>
+                <span class="tag">HTML</span>
+                <span class="tag">CSS</span>
+                <span class="tag">JavaScript</span>
+                <span class="tag">Java</span>
+                <span class="tag">Kotlin</span>
+                <span class="tag">UML</span>
+                <span class="tag" data-i18n="tagDb">Datenbanken</span>
+                <span class="tag" data-i18n="tagAppDev">Anwendungsentwicklung</span>
+                <span class="tag" data-i18n="tagProject">Projektmanagement</span>
+                <span class="tag" data-i18n="tagNetworks">IT-Netzwerke</span>
+                <span class="tag" data-i18n="tagSecurity">IT-Sicherheit</span>
+                <span class="tag" data-i18n="tagElectro">Elektrotechnik</span>
+                <span class="tag" data-i18n="tagMath">Mathematik</span>
+                <span class="tag" data-i18n="tagWiso">Wirtschaft &amp; Sozialkunde</span>
+                <span class="tag" data-i18n="tagRewe">Rechnungswesen</span>
+                <span class="tag" data-i18n="tagMukb">Marketing &amp; Unternehmensführung</span>
+              </div>
+            </article>
+
+            <article class="panel content-panel reveal">
+              <h3 data-i18n="softTitle">Arbeitsweise & Stärken</h3>
+              <div class="tag-wrap">
+                <span class="tag" data-i18n="softTeam">Teamfähigkeit</span>
+                <span class="tag" data-i18n="softCommunication">Kommunikation</span>
+                <span class="tag" data-i18n="soft6">Problemlösung</span>
+                <span class="tag" data-i18n="soft3">Strukturiertes Arbeiten</span>
+                <span class="tag" data-i18n="softIndependent">Selbstständiges Arbeiten</span>
+                <span class="tag" data-i18n="softTime">Zeitmanagement</span>
+                <span class="tag" data-i18n="softResilience">Belastbarkeit</span>
+                <span class="tag" data-i18n="soft2">Zuverlässigkeit</span>
+                <span class="tag" data-i18n="soft1">Lernbereitschaft</span>
+              </div>
+            </article>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="projects">
+      <div class="container">
+        <div class="section-head reveal">
+          <div>
+            <small data-i18n="projectsLabel">Projekte</small>
+            <h2 data-i18n="projectsTitle">Projekte und Arbeiten, die weiter wachsen.</h2>
+          </div>
+          <p data-i18n="projectsLead">
+            Hier zeige ich Projekte, an denen ich gearbeitet habe oder die sich aktuell in Entwicklung befinden.
+          </p>
+        </div>
+
+        <div class="projects-grid">
+          <a class="panel project-card reveal" href="#" target="_blank" rel="noopener noreferrer">
+            <div>
+              <div class="project-icon">&lt;/&gt;</div>
+              <h3 data-i18n="project1Title">Portfolio-Website</h3>
+              <p data-i18n="project1Text">Persönliche Portfolio-Website mit HTML, CSS und JavaScript, die laufend erweitert und verbessert wird.</p>
+            </div>
+            <div class="project-meta">
+              <span>HTML</span><span>CSS</span><span>JavaScript</span>
+            </div>
+          </a>
+
+          <a class="panel project-card reveal" href="#" target="_blank" rel="noopener noreferrer">
+            <div>
+              <div class="project-icon">APP</div>
+              <h3 data-i18n="project2Title">Radio-Web-App</h3>
+              <p data-i18n="project2Text">Projekt zur Weiterentwicklung einer Webradio-Seite zu einem appfreundlichen Konzept für Android und iOS.</p>
+            </div>
+            <div class="project-meta">
+              <span>Web</span><span>UI</span><span>Mobile</span>
+            </div>
+          </a>
+
+          <a class="panel project-card reveal" href="#" target="_blank" rel="noopener noreferrer">
+            <div>
+              <div class="project-icon">DB</div>
+              <h3 data-i18n="project3Title">Python- und SQL-Übungen</h3>
+              <p data-i18n="project3Text">Praktische Übungen zu Programmierlogik, Datenbankabfragen, Datenstrukturen und kleinen Anwendungsideen.</p>
+            </div>
+            <div class="project-meta">
+              <span>Python</span><span>SQL</span><span>Praxis</span>
+            </div>
+          </a>
+
+          <a class="panel project-card reveal" href="#" target="_blank" rel="noopener noreferrer">
+            <div>
+              <div class="project-icon">DEV</div>
+              <h3 data-i18n="project4Title">Schulprojekte in Entwicklung</h3>
+              <p data-i18n="project4Text">Aufgaben und Projektarbeiten aus der Umschulung mit Fokus auf Grundlagen der Softwareentwicklung.</p>
+            </div>
+            <div class="project-meta">
+              <span data-i18n="metaLearning">Lernen</span><span data-i18n="metaGrowth">Wachstum</span><span data-i18n="metaCode">Code</span>
+            </div>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="contact">
+      <div class="container">
+        <div class="section-head reveal">
+          <div>
+            <small data-i18n="contactLabel">Kontakt</small>
+            <h2 data-i18n="contactTitle">Direkt erreichbar.</h2>
+          </div>
+          <p data-i18n="contactLead">
+            Für Fragen, Austausch oder berufliche Möglichkeiten kannst du mich direkt kontaktieren.
+          </p>
+        </div>
+
+        <div class="contact-grid">
+          <article class="panel content-panel reveal">
+            <h3 data-i18n="contactInfoTitle">Kontaktinformationen</h3>
+            <ul class="info-list">
+              <li><small data-i18n="emailLabel">E-Mail</small><strong><a href="mailto:giovanni.codianni20@gmail.com">giovanni.codianni20@gmail.com</a></strong></li>
+              <li><small>GitHub</small><strong><a href="https://github.com/Kameji98" target="_blank" rel="noopener noreferrer">github.com/Kameji98</a></strong></li>
+              <li><small>LinkedIn</small><strong><a href="https://www.linkedin.com/in/giovanni-codianni-6549a531a/" target="_blank" rel="noopener noreferrer">linkedin.com/in/giovanni-codianni-6549a531a</a></strong></li>
+            </ul>
+          </article>
+
+          <article class="panel content-panel reveal">
+            <h3 data-i18n="focusTitle">Aktueller Fokus</h3>
+            <p data-i18n="focusText">
+              Ich arbeite daran, meine Programmierkenntnisse weiter auszubauen, mehr praktische Erfahrung zu sammeln und mein Portfolio Schritt für Schritt mit echten Projekten zu erweitern.
+            </p>
+          </article>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <span>© 2026 Giovanni Paolo Codianni</span>
+      <span data-i18n="footerText">Portfolio für Anwendungsentwicklung, Lernen und praktische Weiterentwicklung.</span>
+    </div>
+  </footer>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/particles.js/2.0.0/particles.min.js"></script>
+  <script src="index.js"></script>
+</body>
+</html>
