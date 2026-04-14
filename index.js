@@ -92,7 +92,7 @@ const translations = {
     project1Title: "Portfolio-Website",
     project1Text: "Persönliche Portfolio-Website mit HTML, CSS und JavaScript, die laufend erweitert und verbessert wird.",
     project2Title: "Radio-Web-App",
-    project2Text: "Projekt zur Weiterentwicklung einer Webradio-Seite zu einem appfreundlichen Konzept für Android und iOS.",
+    project2Text: "Projekt zur Weiterentwicklung einer Webradio-Seite zu einem appfreundlichen Konzept für Android.",
     project3Title: "Python- und SQL-Übungen",
     project3Text: "Praktische Übungen zu Programmierlogik, Datenbankabfragen, Datenstrukturen und kleinen Anwendungsideen.",
     project4Title: "Schulprojekte in Entwicklung",
